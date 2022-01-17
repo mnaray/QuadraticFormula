@@ -42,8 +42,8 @@ namespace QuadraticFormula
                     Console.WriteLine("The roots are imaginary roots. You can't solve this equation.");
                     x1 = -b / deno;
                     x2 = ((Math.Sqrt((4 * a * c) - (b * b))) / deno);
-                    Console.WriteLine("THE ROOT 1: " + x1 + "+i" + x2);
-                    Console.WriteLine("THE ROOT 2:" + x1 + "-i" + x2);
+                    Console.WriteLine("The root 1: " + x1 + "+i" + x2);
+                    Console.WriteLine("The root 2:" + x1 + "-i" + x2);
                 }
             }
             Console.ReadLine();
